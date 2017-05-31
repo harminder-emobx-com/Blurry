@@ -20,12 +20,12 @@ swift_version = "3.0"
 pod "Blurry", "~> 0.0.1"
 
 # Carthage
-github "piemonte/Blurry" ~> 0.0.1
+github "harminder-emobx-com/Blurry" ~> 0.0.1
 
 # SwiftPM
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/piemonte/Blurry", majorVersion: 0)
+        .Package(url: "https://github.com/harminder-emobx-com/Blurry", majorVersion: 0)
     ]
 )
 ```
